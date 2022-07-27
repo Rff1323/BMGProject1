@@ -1,0 +1,3 @@
+PART_CLICKED {
+	$from.PartRided = $part1
+}

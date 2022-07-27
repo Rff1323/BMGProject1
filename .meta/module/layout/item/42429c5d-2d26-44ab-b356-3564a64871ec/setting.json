@@ -1,0 +1,120 @@
+{
+  "data": {
+    "md5": "62677395a69271dfdcd918a1941bd4e9",
+    "path": "asset/Control.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "id": {
+            "value": "106cc281-03f5-462e-8b81-01bd1033a4bb"
+          },
+          "name": "Maju",
+          "pos": {
+            "UDim_X": {
+              "Offect": 1191.1982253874
+            },
+            "UDim_Y": {
+              "Offect": 637.25068310281
+            }
+          },
+          "Text": "Maju",
+          "triggers": {
+            "list": [
+              {
+                "actions": [
+                  {
+                    "__OBJ_TYPE": "Action_ExecScript",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Script",
+                        "desc": "PushPlayer",
+                        "script_name": "ScriptableNode"
+                      }
+                    ],
+                    "id": {
+                      "value": "35199c78-d129-4b6d-b627-9554e027c0db"
+                    },
+                    "pos": {
+                      "x": 651,
+                      "y": 355
+                    }
+                  }
+                ],
+                "custom_trigger_data": {
+                  "name": {
+                    "value": "aa7f5899-ba3e-4953-bd07-2b8de9695227"
+                  },
+                  "type": "Trigger_WidgetButtonPress"
+                },
+                "root": {
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "35199c78-d129-4b6d-b627-9554e027c0db"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "a31c5399-3912-4bb2-97c4-65807af80ee4"
+                  }
+                },
+                "type": "Trigger_WidgetButtonPress"
+              }
+            ]
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "id": {
+            "value": "60c6fc09-db3c-4bcd-8ce7-aa47c5611e02"
+          },
+          "name": "Mundur",
+          "pos": {
+            "UDim_X": {
+              "Offect": 1312.9910923881
+            },
+            "UDim_Y": {
+              "Offect": 637.25061683943
+            }
+          },
+          "Text": "Mundur"
+        }
+      ],
+      "id": {
+        "value": "91d000be-fb12-45b6-9f7b-4a78c6bcfe61"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": 17.398998521782
+        },
+        "UDim_Y": {
+          "Offect": 19.577047918497
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughAlpha"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "62677395a69271dfdcd918a1941bd4e9",
+      "triggers.bts": "d76ca09eeb229ec0930ce8a6b9740236"
+    },
+    "VERSION": "0.22"
+  }
+}

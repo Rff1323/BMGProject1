@@ -1,0 +1,158 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/Actor/Pizza Delivery Motorcycle With Blue English Words/English· Little Blue Takeaway Car.actor"
+      },
+      "girlactor": {
+        "asset": "asset/Actor/Pizza Delivery Motorcycle With Blue English Words/English· Little Blue Takeaway Car.actor"
+      },
+      "modelType": "Customize"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_home": {
+      "homeSize": 5
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "height_c": 1.7,
+      "radius": 0.43,
+      "radius_c": 0.43,
+      "type": "Capsule"
+    },
+    "canRevive": true,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "isPlayer": true,
+    "moveSpeed": 10,
+    "name": {
+      "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    },
+    "reviveTime": {
+      "value": 40
+    },
+    "skill": [
+      "myplugin/c481bfc6-44c9-4e39-b01b-58af34995997"
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "eafba294-860d-4b82-8955-be23011eadf7",
+                      "param_name": "partRided"
+                    }
+                  ],
+                  "desc": "RidingTimer",
+                  "script_name": "ScriptableNode_2"
+                }
+              ],
+              "id": {
+                "value": "e5f3b37c-f8f7-4904-a2dd-cd191125114e"
+              },
+              "pos": {
+                "x": 671,
+                "y": 227
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "PartRided"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "8c55ef71-d3da-450a-8dad-bf2001136e24"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "eafba294-860d-4b82-8955-be23011eadf7"
+              },
+              "pos": {
+                "x": 1011,
+                "y": 376
+              },
+              "type": "T_Part"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "8c55ef71-d3da-450a-8dad-bf2001136e24"
+              },
+              "pos": {
+                "x": 1384,
+                "y": 492
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "84884b0d-a6e5-48f3-9442-58dd6292513c"
+            },
+            "type": "Trigger_EntityEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "e5f3b37c-f8f7-4904-a2dd-cd191125114e"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "6912eb2c-dc5c-445f-a4f9-8baca1f2875b"
+            }
+          },
+          "type": "Trigger_EntityEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5ae49170926244d31414c56b6a005915",
+      "triggers.bts": "2a7e72f554345196dc1c9c89db4b39bc"
+    },
+    "VERSION": "0.22"
+  }
+}

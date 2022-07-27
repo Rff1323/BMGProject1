@@ -1,0 +1,117 @@
+{
+  "data": {
+    "boundingVolume": {
+      "memory": {
+        "Capsule": "1.000000-0.500000"
+      },
+      "size": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "boundingVolumeMissileCfg": {
+      "memory": {
+        "Capsule": "1.000000-0.500000"
+      },
+      "size": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "hitCount": {
+      "hitEntityCount": 1,
+      "isValid": true
+    },
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/Mesh/Actor_mesh/01_shoes_r_widget.mesh"
+      },
+      "type": "mesh"
+    },
+    "name": {
+      "value": "missile_9a5cb28f-48c0-422b-ba93-78b01b26fd8e"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_KillEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "eda63472-8c23-4112-b82c-f8de2a297aa6"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c1da3daf-778a-4efa-8065-a319877fcc9d"
+              },
+              "pos": {
+                "x": 656,
+                "y": 395
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "eda63472-8c23-4112-b82c-f8de2a297aa6"
+              },
+              "pos": {
+                "x": 1027,
+                "y": 343
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "5223e52b-3f03-4afb-8179-2a17ba135346"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "c1da3daf-778a-4efa-8065-a319877fcc9d"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "e1613927-743f-45d2-84aa-e5c6a9a3ff77"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2b56ff832634a6ef60aa068a6658814a",
+      "triggers.bts": "77246136c7169d38a8eaa4e824bc89af"
+    },
+    "VERSION": "0.22"
+  }
+}

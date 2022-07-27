@@ -1,0 +1,14 @@
+PART_CLICKED {
+	CreateMap(name = "10bb72d0-510b-47b0-83e0-579acf3c0252")
+	EnterDuplication(
+		entity = $from,
+		map = "10bb72d0-510b-47b0-83e0-579acf3c0252",
+		pos = {
+			x = 1.9089143276215,
+			y = 1.0399008178711,
+			z = 41.5791015625
+		},
+		rp = 0,
+		ry = 0
+	)
+}

@@ -1,0 +1,3 @@
+ENTITY_ENTER {
+	ExecScript(partRided = $obj1.PartRided, script_name = "ScriptableNode_2")
+}

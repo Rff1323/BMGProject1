@@ -1,0 +1,237 @@
+{
+  "blinn": 0,
+  "canBreak": true,
+  "hdr": 0,
+  "hideCloud": true,
+  "moveDownGravity": 0.15,
+  "scene": [
+    {
+      "class": "VoxelTerrain",
+      "customProperties": [],
+      "properties": {
+        "__folder_id": "",
+        "id": "26644713697705985",
+        "name": "VoxelTerrain",
+        "uniqueKey": "map001"
+      }
+    },
+    {
+      "class": "Light",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8683056738052997121",
+        "ID": "1",
+        "lightActived": "true",
+        "lightAngle": "30.0",
+        "lightBrightness": "1.0",
+        "lightColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "lightLength": "1.0",
+        "lightRange": "8.0",
+        "lightType": "GlobalLight",
+        "lightWidth": "1.0",
+        "name": "EnvironmentLight",
+        "needSync": "true",
+        "position": "x:0 y:0 z:0",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "shadowsDistance": "20.0",
+        "shadowsIntensity": "1.0",
+        "shadowsOffset": "0.02",
+        "shadowsPresicion": "1024",
+        "shadowsType": "null",
+        "skyColor": "r:1.0 g:0.33333333333333 b:0.0 a:1.0",
+        "skyLineColor": "r:0.23921568627451 g:0.22745098039216 b:0.2078431372549 a:1.0",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Light",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8714143954510561281",
+        "ID": "2",
+        "lightActived": "true",
+        "lightAngle": "30.0",
+        "lightBrightness": "1.0",
+        "lightColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "lightLength": "1.0",
+        "lightRange": "8.0",
+        "lightType": "DirectionalLight",
+        "lightWidth": "1.0",
+        "name": "DirectionalLight",
+        "needSync": "true",
+        "position": "x:0 y:5 z:0",
+        "rotation": "x:0 y:-90 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "shadowsDistance": "20.0",
+        "shadowsIntensity": "1.0",
+        "shadowsOffset": "0.02",
+        "shadowsPresicion": "1024",
+        "shadowsType": "null",
+        "skyColor": "r:0.49803921568627 g:0.51372549019608 b:0.54509803921569 a:1.0",
+        "skyLineColor": "r:0.23921568627451 g:0.22745098039216 b:0.2078431372549 a:1.0",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/ad796860-c588-434f-a410-d26eff438905",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8683066232516214785",
+        "name": "Penumpang",
+        "needSync": "true",
+        "position": "x:0.0017728805541992 y:0.99989986419678 z:0.63653564453125",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Part",
+      "customProperties": [],
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "c2370ac5-a42c-47df-bf7b-ae27f8377f33",
+        "cameraCollideEnable": "true",
+        "collisionFidelity": "0",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "0.0",
+        "friction": "0.37",
+        "id": "8703211759503785985",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "2.1999994754791",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:17.255632400513 y:1.4998989105225 z:51.66068649292",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "false",
+        "useCollide": "true",
+        "useGravity": "true",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "class": "Part",
+      "customProperties": [],
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "batchType": "Static",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "9a443e94-9ae0-4671-b9c2-b65ce88a9bba",
+        "cameraCollideEnable": "true",
+        "collisionFidelity": "0",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "0.0",
+        "friction": "0.37",
+        "id": "8714373887605686273",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "34.725037956238",
+        "materialAlpha": "1.0",
+        "materialColor": "r:0.66666666666667 g:0.33333333333333 b:0.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:-18.59481048584 y:1.4998989105225 z:0.12463390827179",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:3.01399 y:0.999996 z:5.23697",
+        "selectable": "true",
+        "shape": "1",
+        "staticBatchNo": "",
+        "staticObject": "false",
+        "useAnchor": "false",
+        "useCollide": "true",
+        "useGravity": "true",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/ad796860-c588-434f-a410-d26eff438905",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8732757201775902721",
+        "name": "Penumpang",
+        "needSync": "true",
+        "position": "x:-12.573089599609 y:0.99989819526672 z:-1.9045596122742",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/65bb63c6-e19f-4d2a-bd73-204bf8d8fd96",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8732757234593366017",
+        "name": "Mobil",
+        "needSync": "true",
+        "position": "x:-13.944889068604 y:0.99989914894104 z:2.116283416748",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxMode": "static_display",
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 600
+  }
+}

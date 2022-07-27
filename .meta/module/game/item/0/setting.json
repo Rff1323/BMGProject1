@@ -1,0 +1,157 @@
+{
+  "data": {
+    "canJoinMidway": false,
+    "canSwitchView": false,
+    "defaultView": "Back",
+    "firstPerson_enable": {
+      "enable": false
+    },
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "follow_enable": {
+      "enable": true
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "x": 17.442079544067,
+        "y": 1.0398989105225,
+        "z": 47.379661560059
+      }
+    },
+    "nowTime": {
+      "h": 7,
+      "m": 40
+    },
+    "player_range": {
+      "max": 6,
+      "min": 1
+    },
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": 21.56435585022,
+        "y": 1.0398998641968,
+        "z": 47.197452545166
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetPartAlpha",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Part",
+                        "action": "550946c3-4e10-4627-93fe-9e341ac3cec5"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "rawval": 0.5
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "9e06a755-9aad-45ec-8e65-87302623da0c"
+              },
+              "pos": {
+                "x": 709,
+                "y": 472
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "ClickedPart"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "550946c3-4e10-4627-93fe-9e341ac3cec5"
+              },
+              "pos": {
+                "x": 1059,
+                "y": 382
+              },
+              "type": "T_Part"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "CustomTrigger"
+            },
+            "register_id": "e9438a1b-4da2-418f-9abd-278d118d3cd2",
+            "type": "Trigger_Custom"
+          },
+          "custom_trigger_name": "CustomTrigger",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "9e06a755-9aad-45ec-8e65-87302623da0c"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "e9438a1b-4da2-418f-9abd-278d118d3cd2"
+            }
+          },
+          "type": "Trigger_Custom"
+        }
+      ]
+    },
+    "unlimitedPlayTime": true,
+    "vars": {
+      "entity": [
+        {
+          "key": "PartRided",
+          "type": "part",
+          "value": {
+            "__OBJ_TYPE": "T_Part"
+          }
+        }
+      ],
+      "global": [
+        {
+          "key": "ClickedPart",
+          "type": "part",
+          "value": {
+            "__OBJ_TYPE": "T_Part"
+          }
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "16092438ee0441161e2d13dde342f5f2",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": "f923aeb1609f2d5e982fed445d1891f9",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

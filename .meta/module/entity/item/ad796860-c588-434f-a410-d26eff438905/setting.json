@@ -1,0 +1,46 @@
+{
+  "data": {
+    "boundingVolume": {
+      "height": 1.8,
+      "height_c": 1.8,
+      "radius": 0.45,
+      "radius_c": 0.45
+    },
+    "name": {
+      "value": "entity_ad796860-c588-434f-a410-d26eff438905"
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "0b773faf-2076-4fb7-a720-178da95bc5ef"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "7ad4936d-62e6-4921-a257-875aad041099"
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8d826a1943a710638ed1c4545c7aeb15",
+      "triggers.bts": "6a0c90522e1ec791f774f8fc7e12d334"
+    },
+    "VERSION": "0.22"
+  }
+}

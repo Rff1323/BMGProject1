@@ -1,0 +1,140 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8683056738052997121",
+        "ID": 1,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight",
+        "skyColor": {
+          "b": 0,
+          "g": 85,
+          "r": 255
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8714143954510561281",
+        "ID": 2,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/ad796860-c588-434f-a410-d26eff438905",
+        "id": "8683066232516214785",
+        "name": "Penumpang",
+        "position": {
+          "x": 0.0017728805541992,
+          "y": 0.99989986419678,
+          "z": 0.63653564453125
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "c2370ac5-a42c-47df-bf7b-ae27f8377f33",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8703211759503785985",
+        "massCenter": {
+          "x": 17.255632400513,
+          "y": 1.4998989105225,
+          "z": 51.66068649292
+        },
+        "position": {
+          "x": 17.255632400513,
+          "y": 1.4998989105225,
+          "z": 51.66068649292
+        },
+        "restitution": 0.3
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "9a443e94-9ae0-4671-b9c2-b65ce88a9bba",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8714373887605686273",
+        "massCenter": {
+          "x": -18.59481048584,
+          "y": 1.4998989105225,
+          "z": 0.12463390827179
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 85,
+            "r": 170
+          }
+        },
+        "position": {
+          "x": -18.59481048584,
+          "y": 1.4998989105225,
+          "z": 0.12463390827179
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 3.01399,
+          "y": 0.999996,
+          "z": 5.23697
+        },
+        "size": {
+          "x": 3.0139904022217,
+          "y": 0.99999576807022,
+          "z": 5.2369704246521
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/ad796860-c588-434f-a410-d26eff438905",
+        "id": "8732757201775902721",
+        "name": "Penumpang",
+        "position": {
+          "x": -12.573089599609,
+          "y": 0.99989819526672,
+          "z": -1.9045596122742
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/65bb63c6-e19f-4d2a-bd73-204bf8d8fd96",
+        "id": "8732757234593366017",
+        "name": "Mobil",
+        "position": {
+          "x": -13.944889068604,
+          "y": 0.99989914894104,
+          "z": 2.116283416748
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "a2d13bfca7584cbc9614b9a80e33c311"
+    },
+    "VERSION": "0.22"
+  }
+}

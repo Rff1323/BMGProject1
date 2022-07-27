@@ -1,0 +1,123 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8704230187530878977"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8704230187722080257",
+        "ID": 2,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "d723d304-d21c-4023-a4b0-6e3480e3f4aa",
+        "density": 3.85,
+        "friction": 0.2,
+        "id": "8704230595750838273",
+        "massCenter": {
+          "x": -7.8824911117554,
+          "y": 3.8008999824524,
+          "z": -1.5917081832886
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 85
+          },
+          "texture": "part_huagangyan.tga"
+        },
+        "position": {
+          "x": -7.8824911117554,
+          "y": 3.8008999824524,
+          "z": -1.5917081832886
+        },
+        "restitution": 0.17,
+        "scale": {
+          "x": 0.999996,
+          "y": 5.60199,
+          "z": 0.999995
+        },
+        "shape": "3",
+        "size": {
+          "x": 0.99999606609344,
+          "y": 5.6019906997681,
+          "z": 0.999995470047
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "8b0cdba5-9a5a-4687-9ef3-c1d90719f998",
+        "density": 3.85,
+        "friction": 0.2,
+        "id": "8704230841397624833",
+        "massCenter": {
+          "x": -7.8824911117554,
+          "y": 3.8008999824524,
+          "z": -9.0517072677612
+        },
+        "material": {
+          "color": {
+            "b": 80,
+            "r": 173
+          },
+          "texture": "part_huagangyan.tga"
+        },
+        "position": {
+          "x": -7.8824911117554,
+          "y": 3.8008999824524,
+          "z": -9.0517072677612
+        },
+        "restitution": 0.17,
+        "scale": {
+          "x": 1.24998,
+          "y": 5.60197,
+          "z": 1.24998
+        },
+        "shape": "3",
+        "size": {
+          "x": 1.2499833106995,
+          "y": 5.6019668579102,
+          "z": 1.2499833106995
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "7fbbb3b0-1d37-40f1-9c02-09070a383b06",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8704249506330689537",
+        "massCenter": {
+          "x": -25.852724075317,
+          "y": 1.4999008178711,
+          "z": 14.114463806152
+        },
+        "position": {
+          "x": -25.852724075317,
+          "y": 1.4999008178711,
+          "z": 14.114463806152
+        },
+        "restitution": 0.3,
+        "shape": "4"
+      }
+    ],
+    "name": {
+      "value": "map_10bb72d0-510b-47b0-83e0-579acf3c0252"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "ddc0dba46810ba05660753688e18417c"
+    },
+    "VERSION": "0.22"
+  }
+}

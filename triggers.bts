@@ -1,0 +1,3 @@
+CustomTrigger {
+	SetPartAlpha(alpha = 0.5, part = @ClickedPart)
+}

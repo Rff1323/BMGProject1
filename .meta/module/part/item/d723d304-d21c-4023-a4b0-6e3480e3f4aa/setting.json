@@ -1,0 +1,80 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_LeaveDuplication",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "e436daa9-4c54-40ea-8529-2325b7547c88"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f99783f4-6f0c-4104-90f3-1835f120cedb"
+              },
+              "pos": {
+                "x": 618,
+                "y": 388
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "from"
+                }
+              ],
+              "id": {
+                "value": "e436daa9-4c54-40ea-8529-2325b7547c88"
+              },
+              "pos": {
+                "x": 959,
+                "y": 467
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "319c928a-25ff-4d47-bf8b-447dcdfb10c6"
+            },
+            "type": "Trigger_PartClicked"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "f99783f4-6f0c-4104-90f3-1835f120cedb"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "69bf362b-bf57-4460-95d4-140a717dcb60"
+            }
+          },
+          "type": "Trigger_PartClicked"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "6362984aacce7c4a3826bb249cab6272"
+    },
+    "VERSION": "0.22"
+  }
+}

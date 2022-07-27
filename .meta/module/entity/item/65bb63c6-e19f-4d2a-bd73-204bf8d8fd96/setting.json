@@ -1,0 +1,26 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Orange-White Car/A Camouflage Car.actor"
+    },
+    "boundingVolume": {
+      "height": 1.8,
+      "height_c": 1.8,
+      "radius": 0.45,
+      "radius_c": 0.45
+    },
+    "girlactor": {
+      "asset": "asset/Actor/Orange-White Car/A Camouflage Car.actor"
+    },
+    "name": {
+      "value": "entity_65bb63c6-e19f-4d2a-bd73-204bf8d8fd96"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c4fe3e86a7da378e46ec691caca6967d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,3 @@
+WIDGET_TOUCH_PRESS {
+	ExecScript(script_name = "ScriptableNode")
+}
